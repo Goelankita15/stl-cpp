@@ -1,0 +1,24 @@
+PAIRS
+pairs < d1 , d2> name;
+insertion => p = make_pair(v2,v2);  or p = {v1, v2};
+Accessing => p.first p.second
+Reference copy -> vaue changed
+relation of pairs is maintained
+
+ 
+
+VECTORS
+vector <datatype> name;
+v.pop_back() 
+v.push_back(x)   // at end O[1]
+v.size() // o[1]
+globally 10^7 only 
+vector <datatype> name(n, value); (3, 6) => 6,6,6
+copying   // o[n]
+v.insert(index, value);
+v.erase(elt) // bad practice
+v.erase(index)
+v.clear
+
+vector<vector<int>> v(n, vector<int>())
+
