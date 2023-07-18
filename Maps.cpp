@@ -26,3 +26,17 @@ m.clear() // deletes all the vector
 
 Hashing limitiaations
 negative values and greater values
+
+UNORDERED MAPS
+---------------
+
+not in sorted order // using hash tables 
+average TC -> O[1] insertion (except in case of collisions in hash tables -> o[n])
+
+//inbuitl implemebtation -> hashtables
+//Time complexity
+//valid keys datatype
+ony some datatype is used in unordered maps  //pairs cannot be inserted
+
+
+//multimaps -> doubly keys can be inserted instead of unique keys
