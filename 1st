@@ -1,0 +1,17 @@
+https://www.topcoder.com/thrive/articles/Power%20up%20C++%20with%20the%20Standard%20Template%20Library%20Part%20One
+
+VECTOR
+vector < int > v(10);
+for (int i = 0; i < 10; i++) {
+  v[i] = (i + 1) * (i + 1);
+}
+for (int i = 9; i > 0; i–) {
+  v[i] -= v[i - 1];
+}
+
+
+The empty vector is created. Be careful with constructions like this:
+vector < int > v(10);
+
+ create the two-dimensional vector of given size:
+vector < vector < int > > Matrix(N, vector < int > (M, -1));
