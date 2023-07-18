@@ -1,0 +1,17 @@
+vector continous so can be accessed simply as array 
+for(int i =0; i<n; i++){
+    cout <<v[i] <<" " ;
+}
+
+vector<int> :: iterator it = v.begin()  -> declartion
+*(it+1)
+
+RANGE BASED LOOPS ->
+for(auto &it : v){
+  cout << *it <<" ";
+}
+
+it + 1 and (it++)  => next location and next iterator 
+since vector is continous  so it + 1 can also be used
+
+auto keyword :-  dynamically assumed datatype or containers
